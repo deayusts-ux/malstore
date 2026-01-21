@@ -1,0 +1,36 @@
+{
+  "name": "webbaru",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deayusts-ux/malstore.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/deayusts-ux/malstore/issues"
+  },
+  "homepage": "https://github.com/deayusts-ux/malstore#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.23",
+    "next": "^16.1.4",
+    "postcss": "^8.5.6",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "tailwindcss": "^4.1.18"
+  },
+  "devDependencies": {
+    "@tailwindcss/container-queries": "^0.1.1",
+    "@tailwindcss/forms": "^0.5.11"
+  }
+}
