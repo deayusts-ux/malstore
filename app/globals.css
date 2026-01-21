@@ -1,6 +1,25 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@plugin "@tailwindcss/forms";
+@plugin "@tailwindcss/container-queries";
+
+@theme {
+    --color-primary: #11b7d4;
+    --color-primary-hover: #0ea5c0;
+    --color-accent-sale: #E68826;
+    --color-accent-rating: #804D80;
+    --color-background-light: #ffffff;
+    --color-background-dark: #101113;
+    --color-surface-dark: #1D1E20;
+    --color-surface-darker: #161719;
+
+    --font-display: "Space Grotesk", sans-serif;
+    --font-body: "Manrope", sans-serif;
+
+    --radius-lg: 0.5rem;
+    --radius-xl: 0.75rem;
+    --radius-2xl: 1rem;
+}
 
 /* Custom scrollbar for webkit */
 ::-webkit-scrollbar {
