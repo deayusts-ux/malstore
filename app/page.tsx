@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 export default function Home() {
     return (
@@ -55,17 +55,33 @@ export default function Home() {
                 <div className="w-full border-y border-white/5 py-12 overflow-hidden bg-white/[0.02] backdrop-blur-sm">
                     <div className="flex whitespace-nowrap animate-marquee">
                         <div className="flex gap-20 items-center px-10">
-                            <span className="text-white/10 text-6xl font-serif italic uppercase tracking-[0.2em]">Visual Identity</span>
+                            <span className="text-white/10 text-6xl font-serif italic uppercase tracking-[0.2em]">Akmal</span>
                             <span className="w-3 h-3 rounded-full bg-primary/20"></span>
-                            <span className="text-white/10 text-6xl font-serif italic uppercase tracking-[0.2em]">Digital Experience</span>
+                            <span className="text-white/10 text-6xl font-serif italic uppercase tracking-[0.2em]">Web gabut</span>
                             <span className="w-3 h-3 rounded-full bg-primary/20"></span>
                             <span className="text-white/10 text-6xl font-serif italic uppercase tracking-[0.2em]">Cinematic Motion</span>
                             <span className="w-3 h-3 rounded-full bg-primary/20"></span>
                         </div>
                         <div className="flex gap-20 items-center px-10">
-                            <span className="text-white/10 text-6xl font-serif italic uppercase tracking-[0.2em]">Visual Identity</span>
+                            <span className="text-white/10 text-6xl font-serif italic uppercase tracking-[0.2em]">Akmal</span>
                             <span className="w-3 h-3 rounded-full bg-primary/20"></span>
-                            <span className="text-white/10 text-6xl font-serif italic uppercase tracking-[0.2em]">Digital Experience</span>
+                            <span className="text-white/10 text-6xl font-serif italic uppercase tracking-[0.2em]">Web gabut</span>
+                            <span className="w-3 h-3 rounded-full bg-primary/20"></span>
+                            <span className="text-white/10 text-6xl font-serif italic uppercase tracking-[0.2em]">Cinematic Motion</span>
+                            <span className="w-3 h-3 rounded-full bg-primary/20"></span>
+                        </div>
+                        <div className="flex gap-20 items-center px-10">
+                            <span className="text-white/10 text-6xl font-serif italic uppercase tracking-[0.2em]">Akmal</span>
+                            <span className="w-3 h-3 rounded-full bg-primary/20"></span>
+                            <span className="text-white/10 text-6xl font-serif italic uppercase tracking-[0.2em]">Web gabut</span>
+                            <span className="w-3 h-3 rounded-full bg-primary/20"></span>
+                            <span className="text-white/10 text-6xl font-serif italic uppercase tracking-[0.2em]">Cinematic Motion</span>
+                            <span className="w-3 h-3 rounded-full bg-primary/20"></span>
+                        </div>
+                        <div className="flex gap-20 items-center px-10">
+                            <span className="text-white/10 text-6xl font-serif italic uppercase tracking-[0.2em]">Akmal</span>
+                            <span className="w-3 h-3 rounded-full bg-primary/20"></span>
+                            <span className="text-white/10 text-6xl font-serif italic uppercase tracking-[0.2em]">Web gabut</span>
                             <span className="w-3 h-3 rounded-full bg-primary/20"></span>
                             <span className="text-white/10 text-6xl font-serif italic uppercase tracking-[0.2em]">Cinematic Motion</span>
                             <span className="w-3 h-3 rounded-full bg-primary/20"></span>
@@ -77,7 +93,7 @@ export default function Home() {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-end mb-24">
                         <div>
                             <h2 className="text-5xl md:text-7xl font-serif italic mb-6">Expertise</h2>
-                            <p className="text-white/40 max-w-md font-light">Leveraging a década of experience in premium design to deliver unparalleled digital outcomes.</p>
+                            <p className="text-white/40 max-w-md font-light">Leveraging a decade of experience in premium design to deliver unparalleled digital outcomes.</p>
                         </div>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

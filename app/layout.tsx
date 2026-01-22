@@ -1,5 +1,5 @@
 import './globals.css'
-import React from 'react'
+
 import type { Metadata } from 'next'
 import { Plus_Jakarta_Sans, Cormorant_Garamond } from 'next/font/google'
 

@@ -14,6 +14,7 @@
     --animate-grid-move: grid-move 20s linear infinite;
     --animate-float: float 15s ease-in-out infinite;
     --animate-marquee: marquee 30s linear infinite;
+    --will-change-transform: transform;
 
     @keyframes grid-move {
         0% {
