@@ -53,39 +53,17 @@ export default function Home() {
                 </section>
 
                 <div className="w-full border-y border-white/5 py-12 overflow-hidden bg-white/[0.02] backdrop-blur-sm">
-                    <div className="flex whitespace-nowrap animate-marquee">
-                        <div className="flex gap-20 items-center px-10">
-                            <span className="text-white/10 text-6xl font-serif italic uppercase tracking-[0.2em]">Akmal</span>
-                            <span className="w-3 h-3 rounded-full bg-primary/20"></span>
-                            <span className="text-white/10 text-6xl font-sans font-black uppercase tracking-[0.2em]">Web Gabut</span>
-                            <span className="w-3 h-3 rounded-full bg-primary/20"></span>
-                            <span className="text-white/10 text-6xl font-serif italic uppercase tracking-[0.2em]">Cinematic Motion</span>
-                            <span className="w-3 h-3 rounded-full bg-primary/20"></span>
-                        </div>
-                        <div className="flex gap-20 items-center px-10">
-                            <span className="text-white/10 text-6xl font-serif italic uppercase tracking-[0.2em]">Akmal</span>
-                            <span className="w-3 h-3 rounded-full bg-primary/20"></span>
-                            <span className="text-white/10 text-6xl font-sans font-black uppercase tracking-[0.2em]">Web Gabut</span>
-                            <span className="w-3 h-3 rounded-full bg-primary/20"></span>
-                            <span className="text-white/10 text-6xl font-serif italic uppercase tracking-[0.2em]">Cinematic Motion</span>
-                            <span className="w-3 h-3 rounded-full bg-primary/20"></span>
-                        </div>
-                        <div className="flex gap-20 items-center px-10">
-                            <span className="text-white/10 text-6xl font-serif italic uppercase tracking-[0.2em]">Akmal</span>
-                            <span className="w-3 h-3 rounded-full bg-primary/20"></span>
-                            <span className="text-white/10 text-6xl font-sans font-black uppercase tracking-[0.2em]">Web Gabut</span>
-                            <span className="w-3 h-3 rounded-full bg-primary/20"></span>
-                            <span className="text-white/10 text-6xl font-serif italic uppercase tracking-[0.2em]">Cinematic Motion</span>
-                            <span className="w-3 h-3 rounded-full bg-primary/20"></span>
-                        </div>
-                        <div className="flex gap-20 items-center px-10">
-                            <span className="text-white/10 text-6xl font-serif italic uppercase tracking-[0.2em]">Akmal</span>
-                            <span className="w-3 h-3 rounded-full bg-primary/20"></span>
-                            <span className="text-white/10 text-6xl font-sans font-black uppercase tracking-[0.2em]">Web Gabut</span>
-                            <span className="w-3 h-3 rounded-full bg-primary/20"></span>
-                            <span className="text-white/10 text-6xl font-serif italic uppercase tracking-[0.2em]">Cinematic Motion</span>
-                            <span className="w-3 h-3 rounded-full bg-primary/20"></span>
-                        </div>
+                    <div className="flex overflow-hidden">
+                        {[0, 1].map((i) => (
+                            <div key={i} className="flex shrink-0 items-center gap-20 pr-20 animate-marquee whitespace-nowrap">
+                                <span className="text-white/10 text-6xl font-serif italic uppercase tracking-[0.2em]">Akmal</span>
+                                <span className="w-3 h-3 rounded-full bg-primary/20"></span>
+                                <span className="text-white/10 text-6xl font-sans font-black uppercase tracking-[0.2em]">Web Gabut</span>
+                                <span className="w-3 h-3 rounded-full bg-primary/20"></span>
+                                <span className="text-white/10 text-6xl font-serif italic uppercase tracking-[0.2em]">Cinematic Motion</span>
+                                <span className="w-3 h-3 rounded-full bg-primary/20"></span>
+                            </div>
+                        ))}
                     </div>
                 </div>
 
