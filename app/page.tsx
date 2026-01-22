@@ -57,7 +57,7 @@ export default function Home() {
                         <div className="flex gap-20 items-center px-10">
                             <span className="text-white/10 text-6xl font-serif italic uppercase tracking-[0.2em]">Akmal</span>
                             <span className="w-3 h-3 rounded-full bg-primary/20"></span>
-                            <span className="text-white/10 text-6xl font-serif italic uppercase tracking-[0.2em]">Web gabut</span>
+                            <span className="text-white/10 text-6xl font-sans font-black uppercase tracking-[0.2em]">Web Gabut</span>
                             <span className="w-3 h-3 rounded-full bg-primary/20"></span>
                             <span className="text-white/10 text-6xl font-serif italic uppercase tracking-[0.2em]">Cinematic Motion</span>
                             <span className="w-3 h-3 rounded-full bg-primary/20"></span>
@@ -65,7 +65,7 @@ export default function Home() {
                         <div className="flex gap-20 items-center px-10">
                             <span className="text-white/10 text-6xl font-serif italic uppercase tracking-[0.2em]">Akmal</span>
                             <span className="w-3 h-3 rounded-full bg-primary/20"></span>
-                            <span className="text-white/10 text-6xl font-serif italic uppercase tracking-[0.2em]">Web gabut</span>
+                            <span className="text-white/10 text-6xl font-sans font-black uppercase tracking-[0.2em]">Web Gabut</span>
                             <span className="w-3 h-3 rounded-full bg-primary/20"></span>
                             <span className="text-white/10 text-6xl font-serif italic uppercase tracking-[0.2em]">Cinematic Motion</span>
                             <span className="w-3 h-3 rounded-full bg-primary/20"></span>
@@ -73,7 +73,7 @@ export default function Home() {
                         <div className="flex gap-20 items-center px-10">
                             <span className="text-white/10 text-6xl font-serif italic uppercase tracking-[0.2em]">Akmal</span>
                             <span className="w-3 h-3 rounded-full bg-primary/20"></span>
-                            <span className="text-white/10 text-6xl font-serif italic uppercase tracking-[0.2em]">Web gabut</span>
+                            <span className="text-white/10 text-6xl font-sans font-black uppercase tracking-[0.2em]">Web Gabut</span>
                             <span className="w-3 h-3 rounded-full bg-primary/20"></span>
                             <span className="text-white/10 text-6xl font-serif italic uppercase tracking-[0.2em]">Cinematic Motion</span>
                             <span className="w-3 h-3 rounded-full bg-primary/20"></span>
@@ -81,7 +81,7 @@ export default function Home() {
                         <div className="flex gap-20 items-center px-10">
                             <span className="text-white/10 text-6xl font-serif italic uppercase tracking-[0.2em]">Akmal</span>
                             <span className="w-3 h-3 rounded-full bg-primary/20"></span>
-                            <span className="text-white/10 text-6xl font-serif italic uppercase tracking-[0.2em]">Web gabut</span>
+                            <span className="text-white/10 text-6xl font-sans font-black uppercase tracking-[0.2em]">Web Gabut</span>
                             <span className="w-3 h-3 rounded-full bg-primary/20"></span>
                             <span className="text-white/10 text-6xl font-serif italic uppercase tracking-[0.2em]">Cinematic Motion</span>
                             <span className="w-3 h-3 rounded-full bg-primary/20"></span>
