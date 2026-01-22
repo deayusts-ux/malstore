@@ -1,10 +1,26 @@
 import './globals.css'
 import React from 'react'
 import type { Metadata } from 'next'
+import { Plus_Jakarta_Sans, Cormorant_Garamond } from 'next/font/google'
+
+const plusJakartaSans = Plus_Jakarta_Sans({
+    subsets: ['latin'],
+    variable: '--font-sans',
+    display: 'swap',
+    weight: ['200', '300', '400', '500', '600', '700', '800'],
+})
+
+const cormorantGaramond = Cormorant_Garamond({
+    subsets: ['latin'],
+    variable: '--font-serif',
+    display: 'swap',
+    weight: ['300', '400', '600'],
+    style: ['normal', 'italic'],
+})
 
 export const metadata: Metadata = {
-    title: 'Cyber Odyssey 2077 - Game Detail',
-    description: 'Game detail page',
+    title: 'Premium Cinematic Dark Portfolio',
+    description: 'Aesthetic Visualist & Creative Director Portfolio',
 }
 
 export default function RootLayout({
@@ -13,14 +29,11 @@ export default function RootLayout({
     children: React.ReactNode
 }) {
     return (
-        <html lang="en" className="dark">
+        <html lang="en" className={`dark ${plusJakartaSans.variable} ${cormorantGaramond.variable}`}>
             <head>
-                <link href="https://fonts.googleapis.com" rel="preconnect" />
-                <link crossOrigin="anonymous" href="https://fonts.gstatic.com" rel="preconnect" />
-                <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
-                <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet" />
+                <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
             </head>
-            <body className="bg-background-dark text-white font-body selection:bg-primary selection:text-black">
+            <body className="bg-true-black text-white font-sans antialiased selection:bg-primary selection:text-black overflow-x-hidden">
                 {children}
             </body>
         </html>

@@ -4,21 +4,76 @@
 @plugin "@tailwindcss/container-queries";
 
 @theme {
-    --color-primary: #11b7d4;
-    --color-primary-hover: #0ea5c0;
-    --color-accent-sale: #E68826;
-    --color-accent-rating: #804D80;
-    --color-background-light: #ffffff;
-    --color-background-dark: #101113;
-    --color-surface-dark: #1D1E20;
-    --color-surface-darker: #161719;
+    --color-primary: #f9d406;
+    --color-charcoal: #0a0a0a;
+    --color-true-black: #050505;
 
-    --font-display: "Space Grotesk", sans-serif;
-    --font-body: "Manrope", sans-serif;
+    --font-sans: var(--font-sans), "Plus Jakarta Sans", sans-serif;
+    --font-serif: var(--font-serif), "Cormorant Garamond", serif;
 
-    --radius-lg: 0.5rem;
-    --radius-xl: 0.75rem;
-    --radius-2xl: 1rem;
+    --animate-grid-move: grid-move 20s linear infinite;
+    --animate-float: float 15s ease-in-out infinite;
+    --animate-marquee: marquee 30s linear infinite;
+
+    @keyframes grid-move {
+        0% {
+            transform: translateY(0);
+        }
+
+        100% {
+            transform: translateY(40px);
+        }
+    }
+
+    @keyframes float {
+
+        0%,
+        100% {
+            transform: translate(0, 0);
+        }
+
+        50% {
+            transform: translate(2%, 2%);
+        }
+    }
+
+    @keyframes marquee {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+}
+
+/* Custom Utilities */
+@layer components {
+    .glass-card {
+        @apply bg-white/[0.02] border border-white/10 backdrop-blur-md transition-all duration-500;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .glass-card:hover {
+        @apply border-white/30 bg-white/[0.05];
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+    }
+
+    .nav-blur {
+        @apply backdrop-blur-xl bg-true-black/80 border-b border-white/5;
+    }
+
+    .pill-button {
+        @apply px-8 py-3 rounded-full border border-white/20 transition-all duration-500 hover:bg-white hover:text-black hover:border-white text-[11px] font-bold tracking-[0.2em] uppercase;
+    }
+}
+
+.dynamic-grid {
+    background-size: 40px 40px;
+    background-image:
+        linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
 }
 
 /* Custom scrollbar for webkit */
@@ -28,26 +83,16 @@
 }
 
 ::-webkit-scrollbar-track {
-    background: #101113;
+    background: #050505;
+    /* true-black */
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #283639;
+    background: #282828;
     border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #11b7d4;
-}
-
-/* Hide scrollbar for gallery thumbnails but allow scroll */
-.no-scrollbar::-webkit-scrollbar {
-    display: none;
-}
-
-.no-scrollbar {
-    -ms-overflow-style: none;
-    /* IE and Edge */
-    scrollbar-width: none;
-    /* Firefox */
+    background: #f9d406;
+    /* primary */
 }
